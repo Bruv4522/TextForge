@@ -1,0 +1,1 @@
+This is TextForge, the most useless backend ever built. The basic idea is that it can take two text inputs and combine both of them to create more text.
