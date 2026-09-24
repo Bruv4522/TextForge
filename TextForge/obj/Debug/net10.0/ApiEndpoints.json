@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "TextForge.Text.TextController",
+    "Method": "Texts",
+    "RelativePath": "api/text",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TextForge.Text.TextController",
+    "Method": "Text",
+    "RelativePath": "api/text/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

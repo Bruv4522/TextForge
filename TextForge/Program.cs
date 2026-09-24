@@ -1,4 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using TextForge.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Inject EF Core
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    )
+);
 
 // Add services to the container.
 

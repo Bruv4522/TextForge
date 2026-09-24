@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("9e028cf7-d65b-42dd-8243-f7bd767dfe17")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextForge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34f7cef9ebbae4174f571da687d0c3e0d9339c5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0bb7c5aff19fb834cf48f18fefd8ce20ba75612")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextForge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextForge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
