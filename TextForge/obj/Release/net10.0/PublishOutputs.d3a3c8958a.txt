@@ -1,0 +1,14 @@
+C:\Users\cjad1\source\repos\TextForge\publish\TextForge.exe
+C:\Users\cjad1\source\repos\TextForge\publish\appsettings.Development.json
+C:\Users\cjad1\source\repos\TextForge\publish\appsettings.json
+C:\Users\cjad1\source\repos\TextForge\publish\TextForge.dll
+C:\Users\cjad1\source\repos\TextForge\publish\TextForge.runtimeconfig.json
+C:\Users\cjad1\source\repos\TextForge\publish\TextForge.pdb
+C:\Users\cjad1\source\repos\TextForge\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\cjad1\source\repos\TextForge\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\cjad1\source\repos\TextForge\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cjad1\source\repos\TextForge\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cjad1\source\repos\TextForge\publish\Microsoft.OpenApi.dll
+C:\Users\cjad1\source\repos\TextForge\publish\Npgsql.dll
+C:\Users\cjad1\source\repos\TextForge\publish\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\cjad1\source\repos\TextForge\publish\TextForge.deps.json
