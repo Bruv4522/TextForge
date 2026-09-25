@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextForge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33f587f1f83328b88a352da62f5170a0785d6bf4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea28cc466bd6fb83ba2e242ded1328ae498e76ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextForge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextForge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
