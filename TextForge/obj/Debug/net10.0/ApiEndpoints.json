@@ -27,6 +27,27 @@
   },
   {
     "ContainingType": "TextForge.Text.TextController",
+    "Method": "Combine",
+    "RelativePath": "api/text/combine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TextForge.Text.TextController",
     "Method": "Create",
     "RelativePath": "api/text/create",
     "HttpMethod": "POST",

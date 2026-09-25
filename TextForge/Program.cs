@@ -1,7 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using TextForge.Data;
+using TextForge.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Inject TextComb
+
+builder.Services.AddSingleton<TextComb>();
 
 // Inject EF Core
 

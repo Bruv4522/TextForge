@@ -6,7 +6,7 @@ using TextForge.Data;
 
 [ApiController]
 [Route("api/text")]
-public class TextController(AppDbContext db) : ControllerBase
+public class TextController(AppDbContext db, TextComb service) : ControllerBase
 {
     [HttpGet]
     public async Task<IActionResult> Texts()
@@ -82,5 +82,22 @@ public class TextController(AppDbContext db) : ControllerBase
         await db.SaveChangesAsync();
 
         return Ok(text);
+    }
+
+    [HttpGet]
+    [Route("combine")]
+    public async Task<IActionResult> Combine([FromQuery] int a, [FromQuery] int b)
+    {
+        Text? aText = await db.Texts.FindAsync(a);
+        Text? bText = await db.Texts.FindAsync(b);
+
+        if (aText == null || bText == null)
+        {
+            return NotFound(new Text($"Text of id {a} or text of id {b} not found"));
+        }
+
+
+        var result = await service.Combine(aText.Content, bText.Content);
+        return Ok(new Text(result));
     }
 }
